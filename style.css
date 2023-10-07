@@ -43,6 +43,7 @@ button{
     width: auto;
     font-size:x-large;
     margin-right: 10px;
+    margin-bottom:10px;
    font-weight: bold;
 }
 li{
