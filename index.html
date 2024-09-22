@@ -1,186 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bharath M S Portfolio</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-  <link rel="stylesheet" href="./style.css">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f8f9fa;
-    }
-    #dp {
-      border-radius: 50%;
-      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-    }
-    h1, h2 {
-      color: #0A4D68;
-    }
-    .edu {
-      color: #0A4D68;
-    }
-    .skills button {
-      margin: 5px;
-      font-size: 16px;
-    }
-    footer {
-      background-color: #343a40;
-      padding: 20px;
-    }
-    footer ul {
-      list-style-type: none;
-      padding-left: 0;
-    }
-    footer ul li {
-      display: inline;
-      margin: 0 15px;
-    }
-    footer ul li a {
-      color: white;
-      text-decoration: none;
-    }
-    footer p {
-      color: white;
-      margin-top: 10px;
-    }
-  </style>
-</head>
-
-<body>
-  <!-- Header Section -->
-  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">
-      <img src="./emoji-sun.svg" height="50" alt="logo">
-      <span class="fs-4">Hey, It's Me</span>
-    </a>
-    <ul class="nav nav-pills">
-      <li><img src="./chat.svg" alt="chat icon" height="30"></li>
-      <li><a href="mailto:bharathms1902@gmail.com" class="nav-link">bharathms1902@gmail.com</a></li>
-    </ul>
-  </header>
-
-  <!-- Profile Section -->
-  <section class="container py-5">
-    <div class="row align-items-center">
-      <div class="col-lg-6">
-        <h4>Hello, I'm</h4>
-        <h1 class="display-5 fw-bold">Bharath M S</h1>
-        <p class="lead">
-          Recent graduate with strong coding and problem-solving skills, seeking opportunities in the IT industry. Eager to contribute to a dynamic team and make a positive impact. Committed to continuous learning and growth, especially excited about fostering innovation.
-        </p>
-      </div>
-      <div class="col-lg-6 text-center">
-        <img src="./images/DP.jpeg" id="dp" class="img-fluid" alt="Profile image" width="300" height="300" loading="lazy">
-      </div>
-    </div>
-  </section>
-
-  <!-- Education Section -->
-  <section class="container py-5">
-    <h1 class="edu">EDUCATION</h1>
-    <div class="row">
-      <div class="col-lg-4 mb-3">
-        <img src="./images/nitte.jpg" alt="NMIT" class="img-fluid">
-        <h2>Bachelor of Engineering</h2>
-        <h4>Nitte Meenakshi Institute of Technology</h4>
-        <h5>Computer Science and Engineering</h5>
-        <p>08/2019 - 06/2023 | Bengaluru</p>
-      </div>
-      <div class="col-lg-4 mb-3">
-        <img src="./images/sdm.jpg" alt="SDMRC" class="img-fluid">
-        <h2>Pre-University</h2>
-        <h4>SDMRC PU College</h4>
-        <h5>PCMB</h5>
-        <p>06/2017 - 04/2019 | Ujire</p>
-      </div>
-      <div class="col-lg-4 mb-3">
-        <img src="./images/jp.webp" alt="JP English High School" class="img-fluid">
-        <h2>High School</h2>
-        <h4>JP English High School</h4>
-        <h5>General Education</h5>
-        <p>06/2014 - 03/2017 | Turuvekere</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Skills Section -->
-  <section class="container py-5">
-    <h1 class="edu">SKILLS</h1>
-    <div class="skills">
-      <button class="btn btn-light">C/C++</button>
-      <button class="btn btn-light">Java</button>
-      <button class="btn btn-light">HTML/CSS</button>
-      <button class="btn btn-light">JavaScript</button>
-      <button class="btn btn-light">Data Structures</button>
-      <button class="btn btn-light">MySQL</button>
-      <button class="btn btn-light">MongoDB</button>
-      <button class="btn btn-light">Node.js</button>
-      <button class="btn btn-light">React</button>
-      <button class="btn btn-light">Photoshop</button>
-    </div>
-  </section>
-
-  <!-- Work Experience Section -->
-  <section class="container py-5">
-    <h1 class="edu">WORK EXPERIENCE</h1>
-    <div class="p-5 text-center bg-body-tertiary rounded-3 mb-4">
-      <img src="./images/exp.jpg" class="img-fluid mb-3" alt="Exposys">
-      <h2>Student Intern</h2>
-      <h4>Exposys Data Labs</h4>
-      <p>07/2022 - 09/2022</p>
-      <ul>
-        <li>Worked on front-end projects using HTML, CSS, JavaScript.</li>
-        <li>Built and tested web components; debugged web pages.</li>
-        <li>Enhanced skills in professional web development.</li>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <img src="./emoji-sun.svg" height="50">
+        <span class="fs-4">Hey, It's Me</span>
+      </a>
+      <ul class="nav nav-pills">
+        <li><img src="./chat.svg" alt="chat icon" height="30"></li>
+        <li><a href="mailto:bharathms1902@gmail.com" class="nav-link">bharathms1902@gmail.com</a></li>
       </ul>
-    </div>
+    </header>
 
-    <div class="p-5 text-center bg-body-tertiary rounded-3">
-      <img src="./images/bh.jpg" class="img-fluid mb-3" alt="Basket Hunt">
-      <h2>IT & Web Development Intern</h2>
-      <h4>Basket Hunt</h4>
-      <p>08/2023 - 10/2023</p>
-      <ul>
-        <li>Worked on React-based projects.</li>
-        <li>Built and implemented front-end components.</li>
-        <li>Gained experience in modern web technologies.</li>
+    <section class="s1">
+      <div class="container col-xxl-8" id="profile">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./images/DP.jpeg" id="dp" class="d-block mx-lg-auto img-fluid" alt="Profile image" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h4>Hello, I'm</h4>
+            <h1 class="display-5 fw-bold lh-1 mb-3" style="color:#0A4D68">Bharath M S</h1>
+            <p class="lead">Data Engineer and Web Developer with expertise in designing efficient ETL pipelines and building scalable web applications. Passionate about transforming raw data into actionable insights and solving complex challenges. Proficient in Python, Django, PostgreSQL, and various cloud platforms, with hands-on experience in handling large datasets and working across multiple domains.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container marketing col-xxl-8 py-5">
+        <h1 class="edu">EDUCATION</h1>
+        <div class="row">
+          <div class="col-lg-5" id="BE">
+            <img src="./images/nitte.jpg" id="nitte" alt="nitte">
+            <h2 class="fw-normal">Bachelor of Engineering</h2>
+            <h4>Nitte Meenakshi Institute of Technology</h4>
+            <h5>Computer Science and Engineering</h5>
+            <p><span>08/2019-06/2023</span> <span>Bengaluru</span></p>
+          </div>
+          <div class="col-lg-4">
+            <img src="./images/sdm.jpg" id="sdm" alt="SDMRC">
+            <h2 class="fw-normal">Pre-University</h2>
+            <h4>SDMRC PU College</h4>
+            <h5>PCMB</h5>
+            <p><span>06/2017-04/2019</span> <span>Ujire</span></p>
+          </div>
+          <div class="col-lg-3">
+            <img src="./images/jp.webp" id="jp" alt="JP">
+            <h2 class="fw-normal">High School</h2>
+            <h4>JP English High School</h4>
+            <h5>General</h5>
+            <p><span>06/2014-03/2017</span> <span>Turuvekere</span></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container skills col-xxl-8 py-5">
+        <h1 class="edu">SKILLS</h1>
+        <button type="button" class="btn btn-light">C/C++</button>
+        <button type="button" class="btn btn-light">Java</button>
+        <button type="button" class="btn btn-light">HTML/CSS</button>
+        <button type="button" class="btn btn-light">JavaScript</button>
+        <button type="button" class="btn btn-light">Data Structures</button>
+        <button type="button" class="btn btn-light">MySQL</button>
+        <button type="button" class="btn btn-light">MongoDB</button>
+        <button type="button" class="btn btn-light">Node.js</button>
+        <button type="button" class="btn btn-light">React</button>
+        <button type="button" class="btn btn-light">Photoshop</button>
+      </div>
+
+      <div class="container my-5 col-xxl-8 py-5">
+        <h1 class="edu">WORK EXPERIENCE</h1>
+
+        <!-- Exposys Data Labs Experience -->
+        <div class="p-5 text-center bg-body-tertiary rounded-3" id="expo">
+          <img src="./images/exp.jpg">
+          <h1 class="text-body-emphasis">Student Intern</h1>
+          <h2>Exposys Data Labs</h2>
+          <p class="col-lg-8 mx-auto fs-5 text-muted">
+            <ul>
+              <li>07/2022-09/2022</li>
+              <li>Worked and gained knowledge on HTML, CSS, and JavaScript projects.</li>
+              <li>Implemented front-end components, tested, and debugged web pages.</li>
+              <li>Enhanced skills and professional experience in a structured environment.</li>
+            </ul>
+          </p>
+        </div>
+
+        <!-- Basket Hunt Experience -->
+        <div class="p-5 text-center bg-body-tertiary rounded-3">
+          <img src="./images/bh.jpg" class="bh">
+          <h1 class="text-body-emphasis">IT and Web Development Intern</h1>
+          <h2>Basket Hunt</h2>
+          <p class="col-lg-8 mx-auto fs-5 text-muted">
+            <ul>
+              <li>08/2023-10/2023</li>
+              <li>Worked on React and JavaScript projects, implementing front-end components.</li>
+              <li>Successfully completed tasks and gained valuable professional experience.</li>
+            </ul>
+          </p>
+        </div>
+
+        <!-- HDFC Bank Experience -->
+        <div class="p-5 text-center bg-body-tertiary rounded-3">
+          <img src="./images/hdfc_logo.png" class="bh">
+          <h1 class="text-body-emphasis">Data Engineer Intern</h1>
+          <h2>HDFC Bank</h2>
+          <p class="col-lg-8 mx-auto fs-5 text-muted">
+            <ul>
+              <li>Developed the EWA ETL tool using Django and PostgreSQL to handle data ingestion from multiple sources.</li>
+              <li>Built and maintained the 'repomaster' web app to manage and search software packages effectively.</li>
+              <li>Implemented both parallel and sequential job execution modes for optimized data processing.</li>
+              <li>Collaborated with teams to gather and transform data from various sources for business intelligence.</li>
+              <li>Managed large datasets and scheduled jobs with APScheduler and Airflow.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-3">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="https://github.com/Bharathkademane" class="nav-link px-2 text-body-secondary" target="blank"><img src="./github.svg" height="40"></a></li>
+        <li class="nav-item"><a href="https://www.linkedin.com/in/bharath-m-s-b07bb81a0" class="nav-link px-2 text-body-secondary" target="blank"><img src="./linkedin.svg" height="40"></a></li>
+        <li class="nav-item"><a href="mailto:bharathms1902@gmail.com" class="nav-link px-2 text-body-secondary" target="blank"><img src="./envelope.svg" height="40"></a></li>
+        <li class="nav-item"><a href="https://www.instagram.com/bharath__kademane/" class="nav-link px-2 text-body-secondary" target="blank"><img src="./instagram.svg" height="40"></a></li>
       </ul>
-    </div>
-  </section>
+      <p class="text-center text-body-secondary">© 2023 Bharath, Inc</p>
+    </footer>
 
-  <!-- Projects Section -->
-  <section class="container py-5">
-    <h1 class="edu">PROJECTS</h1>
-    
-    <div class="p-5 text-center bg-body-tertiary rounded-3 mb-4">
-      <h2 class="text-body-emphasis">EWA ETL Tool</h2>
-      <p>Developed a custom ETL tool for HDFC Bank, supporting 6 data sources and 5 target databases. The tool enables parallel and sequential execution of large-scale data pipelines.</p>
-    </div>
-
-    <div class="p-5 text-center bg-body-tertiary rounded-3 mb-4">
-      <h2 class="text-body-emphasis">Dumps Data Pipelines</h2>
-      <p>Built data pipelines for ingesting and processing large dumps provided by various teams using Python, Airflow, and PostgreSQL, with scheduling and quality checks.</p>
-    </div>
-
-    <div class="p-5 text-center bg-body-tertiary rounded-3">
-      <h2 class="text-body-emphasis">Repomaster Web App</h2>
-      <p>Developed a Django-based web app for managing and searching software packages with efficient version and path display functionalities.</p>
-    </div>
-  </section>
-
-  <!-- Footer Section -->
-  <footer class="text-center">
-    <ul>
-      <li><a href="https://github.com/Bharathkademane" target="_blank"><img src="./github.svg" height="40" alt="GitHub"></a></li>
-      <li><a href="https://www.linkedin.com/in/bharath-m-s-b07bb81a0" target="_blank"><img src="./linkedin.svg" height="40" alt="LinkedIn"></a></li>
-      <li><a href="mailto:bharathms1902@gmail.com" target="_blank"><img src="./envelope.svg" height="40" alt="Email"></a></li>
-      <li><a href="https://www.instagram.com/bharath__kademane/" target="_blank"><img src="./instagram.svg" height="40" alt="Instagram"></a></li>
-    </ul>
-    <p>&copy; 2023 Bharath, Inc</p>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  </body>
 </html>
